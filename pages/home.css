@@ -857,7 +857,7 @@
 
 .adv__icon {
    object-fit: cover;
-   width: 77px;
+   height: 70px;
    margin-top: 60px;
 }
 
@@ -884,8 +884,7 @@
    }
    
    .adv__icon {
-      width: 85px;
-      margin-top: 60px;
+      height: 70px;
    }
    
    .adv__text {
@@ -911,7 +910,7 @@
    }
    
    .adv__icon {
-      width: 64px;
+      height: 60px;
       margin-top: 60px;
    }
    
@@ -938,7 +937,7 @@
    }
    
    .adv__icon {
-      width: 50px;
+      height: 45px;
       margin-top: 30px;
    }
    
