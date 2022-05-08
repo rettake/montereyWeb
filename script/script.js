@@ -2,7 +2,7 @@ const contactButton = document.querySelectorAll("#contact");
 const popup = document.querySelector('.popup');
 const closeButton = popup.querySelector('.popup__close');
 // ПОЛУЧЕНИЕ БУРГЕРА
-const iconMenu = document.querySelector('.menu__icon')
+const iconMenu = document.querySelector('.menu__icon');
 
 
 
@@ -10,6 +10,14 @@ const iconMenu = document.querySelector('.menu__icon')
 
 const popupOpen = () => {
    popup.classList.add("popup_opened");
+
+   document.addEventListener('click', (event) => {
+      if ((!event.target.classList.contains('contacts__form-set'))
+         && (event.target.classList.contains('popup'))
+         || (event.target.classList.contains('popup__outer'))) {
+         popupClose();
+      }
+   })
 }
 
 const popupClose = () => {

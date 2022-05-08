@@ -3,6 +3,7 @@
 .root {
    position: relative;
    font-family: 'Montserrat', sans-serif;
+   -webkit-font-smoothing: antialiased;
 }
 
 body._lock {
