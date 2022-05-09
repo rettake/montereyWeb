@@ -1,0 +1,30 @@
+.stock__props-text_bold {
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 18px;
+   margin-right: 4px;
+}
+
+@media screen and (max-width: 1280px) {
+   .stock__props-text_bold {
+      font-size: 12px;
+      line-height: 14px;
+      margin-right: 3px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .stock__props-text_bold {
+      font-size: 15px;
+      line-height: 18px;
+      margin-right: 3px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .stock__props-text_bold {
+      font-size: 10px;
+      line-height: 13px;
+      margin-right: 3px;
+   }
+}

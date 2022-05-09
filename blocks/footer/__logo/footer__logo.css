@@ -1,0 +1,21 @@
+.footer__logo {
+   display: block;
+}
+
+@media screen and (max-width: 1280px) {
+   .footer__logo {
+      width: 190px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .footer__logo {
+      width: 160px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .footer__logo {
+      display: none;
+   }
+}

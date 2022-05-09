@@ -1,0 +1,41 @@
+.intro__contact {
+   margin: 0;
+   box-sizing: border-box;
+   padding: 25px 50px;
+   border-radius: 50px;
+   border: none;
+   background-color: #0fffff;
+   cursor: pointer;
+   color: black;
+   font-weight: bold;
+   font-size: 20px;
+   transition: opacity .3s linear;
+   transform: translate(0px, 120%);
+   opacity: 0;
+   transition: all .5s ease-in-out 0s;
+}
+
+.intro__contact:hover {
+   opacity: .7;
+}
+
+@media screen and (max-width: 768px) {
+   .intro__contact {
+      font-size: 11px;
+      padding: 6px;
+   }
+}
+
+@media screen and (max-width: 1280px) {
+   .intro__contact {
+      font-size: 14px;
+      padding: 16px 32px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .intro__contact {
+      font-size: 11px;
+      padding: 12px 24px;
+   }
+}

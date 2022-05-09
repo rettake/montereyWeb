@@ -1,0 +1,25 @@
+.advantage {
+   box-sizing: border-box;
+   padding: 200px 120px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+   .advantage {
+      padding: 120px 60px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .advantage {
+      padding: 80px 40px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .advantage {
+      padding: 50px 25px;
+   }
+}

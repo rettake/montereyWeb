@@ -1,0 +1,42 @@
+.contacts__submit {
+   display: block;
+   width: 100%;
+   margin: 0;
+   padding: 14px 0;
+   background: #2DA531;
+   border-radius: 6px;
+   border: none;
+   cursor: pointer;
+   color: white;
+   transition: opacity .3s linear;
+   font-size: 18px;
+   line-height: 22px;
+}
+
+.contacts__submit:hover {
+   opacity: .7;
+}
+
+@media screen and (max-width: 1280px) {
+   .contacts__submit {
+      padding: 9px 0;
+      font-size: 14px;
+      line-height: 17px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .contacts__submit {
+      padding: 7px 0;
+      font-size: 12px;
+      line-height: 14px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .contacts__submit {
+      padding: 9px 0;
+      font-size: 14px;
+      line-height: 17px;
+   }
+}

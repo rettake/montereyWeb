@@ -1,0 +1,12 @@
+.intro__aside {
+   object-fit: cover;
+   max-height: 100%;
+   max-width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+   .intro__aside {
+      height: 700px;
+      overflow: hidden;
+   }
+}

@@ -1,0 +1,26 @@
+.header__nav {
+   display: flex;
+   justify-content: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+   .header__nav {
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      max-height: 100%;
+      background-color:rgba(80, 80, 80, 0.5);
+      padding: 30px 30px 30px 30px;
+      left: -100%;
+      transition: left .3s ease 0s;
+      overflow: auto;
+   }
+
+   .header__nav._active {
+      left: 0;
+   }
+}

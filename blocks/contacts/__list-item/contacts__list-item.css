@@ -1,0 +1,31 @@
+.contacts__list-item {
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   margin-bottom: 24px;
+}
+
+.contacts__list-item:last-child {
+   margin-bottom: 0;
+}
+
+@media screen and (max-width: 1280px) {
+   .contacts__list-item {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin-bottom: 16px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .contacts__list-item {
+      margin-bottom: 11px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .contacts__list-item {
+      margin-bottom: 16px;
+   }
+}

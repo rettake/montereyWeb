@@ -1,0 +1,35 @@
+.contacts__text-area {
+   margin: 0 0 20px;
+   box-sizing: border-box;
+   padding: 10px 16px;
+   background-color: transparent;
+   border: 1px solid rgba(215, 215, 215, 1);
+   border-radius: 4px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   min-width: 100%;
+   color: rgba(169, 169, 169, 1);
+}
+
+@media screen and (max-width: 1280px) {
+   .contacts__text-area {
+      margin: 0 0 14px;
+      padding: 6px 11px;
+      font-size: 13px;
+      line-height: 16px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .contacts__text-area {
+      padding: 4px 9px;
+      line-height: 14px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .contacts__text-area {
+      padding: 6px 11px;
+   }
+}

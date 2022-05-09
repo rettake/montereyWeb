@@ -1,0 +1,9 @@
+.section__container {
+   max-width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+   .section__container {
+      min-width: 100%;
+   }
+}

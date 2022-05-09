@@ -1,0 +1,22 @@
+.section__icon {
+   object-fit: contain;
+   margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+   .section__icon {
+      height: 50px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .section__icon {
+      height: 32px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .section__icon {
+      display: none;
+   }
+}

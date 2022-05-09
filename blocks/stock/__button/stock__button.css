@@ -1,0 +1,34 @@
+.stock__button {
+   width: 180px;
+   color: white;
+   margin-top: 36px;
+   box-sizing: border-box;
+   padding: 10px;
+   cursor: pointer;
+   background: linear-gradient(90.52deg, #234C7B 0.45%, #1E85B1 102.48%);
+   border-radius: 6px;
+   font-weight: bold;
+   font-size: 16px;
+   transition: opacity .3s linear;
+   border: none;
+}
+
+.stock__button:hover {
+   opacity: .7;
+}
+
+@media screen and (max-width: 1280px) {
+   .stock__button {
+      width: 140px;
+      margin-top: 28px;
+      padding: 8px;
+      border-radius: 4px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .stock__button {
+      font-size: 11px;
+      width: 110px;
+   }
+}

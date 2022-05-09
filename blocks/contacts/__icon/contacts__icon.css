@@ -1,0 +1,17 @@
+@media screen and (max-width: 1280px) {
+   .contacts__icon {
+      width: 20px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .contacts__icon {
+      width: 14px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .contacts__icon {
+      width: 16px;
+   }
+}

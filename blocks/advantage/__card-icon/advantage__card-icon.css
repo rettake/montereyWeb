@@ -1,0 +1,18 @@
+.advantage__card-icon {
+   width: 100px;
+   height: 100px;
+}
+
+@media screen and (max-width: 1280px) {
+   .advantage__card-icon {
+      width: 80px;
+      height: 80px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .advantage__card-icon {
+      width: 60px;
+      height: 60px;
+   }
+}

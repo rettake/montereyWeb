@@ -1,0 +1,14 @@
+.service__border {
+   background-color: blue;
+   position: absolute;
+   top: 22%;
+   left: 25%;
+   height: 1px;
+   width: 25%;
+}
+
+@media screen and (max-width: 768px) {
+   .service__border {
+      left: 10%;
+   }
+}

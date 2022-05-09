@@ -1,0 +1,21 @@
+.contacts__container {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-direction: row;
+}
+
+@media screen and (max-width: 1280px) {
+   .contacts__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: row;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .contacts__container {
+      flex-direction: column;
+   }
+}

@@ -1,0 +1,32 @@
+.adv__text {
+   text-align: center;
+   margin: 40px 0 18px;
+   font-size: 10px;
+   font-weight: 400;
+   line-height: 17px;
+}
+
+@media screen and (max-width: 1280px) {
+   .adv__text {
+      margin: 40px 0 18px;
+      font-size: 12px;
+      line-height: 20px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .adv__text {
+      margin: 40px 0 18px;
+      font-size: 11px;
+      line-height: 14px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .adv__text {
+      margin: 20px 0 18px;
+      font-size: 9px;
+      line-height: 15px;
+      max-width: 90%;
+   }
+}

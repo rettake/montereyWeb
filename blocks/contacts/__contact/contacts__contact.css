@@ -1,0 +1,23 @@
+.contacts__contact {
+   margin: 0 0 0 16px;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-decoration: none;
+   color: black;
+}
+
+@media screen and (max-width: 1280px) {
+   .contacts__contact {
+      margin: 0 0 0 16px;
+      font-size: 14px;
+      line-height: 17px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .contacts__contact {
+      font-size: 12px;
+      line-height: 14px;
+   }
+}

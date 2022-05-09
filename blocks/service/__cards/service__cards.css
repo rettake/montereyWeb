@@ -1,0 +1,19 @@
+.service__cards {
+   margin-top: 70px;
+   min-width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+   .service__cards {
+      grid-template-columns: 1fr 1fr;
+      margin-top: 50px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .service__cards {
+      margin-top: 30px;
+   }
+}

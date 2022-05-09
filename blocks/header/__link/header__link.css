@@ -1,0 +1,16 @@
+.header__link {
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   padding-bottom: 8px;
+   transition: opacity .3s linear;
+}
+
+.header__link:hover {
+   opacity: .7;
+}
+
+@media screen and (max-width: 900px) {
+   .header__link {
+      font-size: 19px;
+   }
+}

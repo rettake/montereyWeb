@@ -1,0 +1,9 @@
+.footer__mobile {
+   display: none;
+}
+
+@media screen and (max-width: 768px) {
+   .footer__mobile {
+      display: block;
+   } 
+}

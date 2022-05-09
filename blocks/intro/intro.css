@@ -1,0 +1,28 @@
+.intro { 
+   background: linear-gradient(90deg, #1C3C61 0%, #0F3C70 54.81%, #16549C 100%);
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   box-sizing: border-box;
+   padding-left: 120px;
+   align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+   .intro {
+      padding-left: 80px;
+   } 
+}
+
+@media screen and (max-width: 1024px) {
+   .intro {
+      padding-left: 60px;
+   } 
+}
+
+@media screen and (max-width: 768px) {
+   .intro {
+      padding-left: 30px;
+      height: 700px;
+   } 
+}
