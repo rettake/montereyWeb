@@ -1,0 +1,96 @@
+/* import .css file for body block */
+
+@import url(../vendor/Normalize.css);
+
+/* import normalize.css */
+
+@import url(../blocks/root/root.css);
+
+/* import for header */
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__contact/header__contact.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
+@import url(../blocks/header/__list-item/header__list-item.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/icon/icon.css);
+@import url(../blocks/header/menu__icon/menu__icon.css);
+
+/* import for main block */
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/section__title.css);
+
+/* import for intro block */
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__aside/intro__aside.css);
+@import url(../blocks/intro/__contact/intro__contact.css);
+@import url(../blocks/intro/__content/intro__content.css);
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__title/intro__title.css);
+
+/* import for contacts block */
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/icons/icons.css);
+@import url(../blocks/contacts/__contact/contacts__contact.css);
+@import url(../blocks/contacts/__container/contacts__container.css);
+@import url(../blocks/contacts/__form-container/contacts__form-container.css);
+@import url(../blocks/contacts/__form-set/contacts__form-set.css);
+@import url(../blocks/contacts/__form/contacts__form.css);
+@import url(../blocks/contacts/__icon/contacts__icon.css);
+@import url(../blocks/contacts/__list-item/contacts__list-item.css);
+@import url(../blocks/contacts/__list/contacts__list.css);
+@import url(../blocks/contacts/__submit/contacts__submit.css);
+@import url(../blocks/contacts/__subtitle/contacts__subtitle.css);
+@import url(../blocks/contacts/__text-area/contacts__text-area.css);
+@import url(../blocks/contacts/__text-area/_message/contacts__text-area_message.css);
+
+/* import for footer */ 
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__about/footer__about.css);
+@import url(../blocks/footer/__icon/footer__icon.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__mobile/footer__mobile.css);
+@import url(../blocks/footer/__subtitle/footer__subtitle.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__title/footer__title.css);
+
+/* import for opt block */
+
+@import url(../blocks/about/_opt/about_opt.css);
+@import url(../blocks/about/section__text/_opt/section__text_opt.css);
+
+/* import for stock block */
+
+@import url(../blocks/stock/stock.css);
+@import url(../blocks/stock/__props/stock__props.css);
+@import url(../blocks/stock/__props-text/stock__props-text.css);
+@import url(../blocks/stock/__props-text/_bold/stock__props-text_bold.css);
+@import url(../blocks/stock/__props-item/stock__props-item.css);
+@import url(../blocks/stock/__name/stock__name.css);
+@import url(../blocks/stock/__name-model/stock__name-model.css);
+@import url(../blocks/stock/__image/stock__image.css);
+@import url(../blocks/stock/__cards/stock__cards.css);
+@import url(../blocks/stock/__card/stock__card.css);
+@import url(../blocks/stock/__button/stock__button.css);
+
+/* import for popup block */
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__outer/popup__outer.css);
+@import url(../blocks/popup/__inner/popup__inner.css);
+@import url(../blocks/popup/__close/popup__close.css);
+
+/* import for active animate elements */
+
+@import url(../blocks/animations/animatedItems.css);

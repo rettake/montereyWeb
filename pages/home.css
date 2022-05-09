@@ -98,25 +98,6 @@
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/footer/__title/footer__title.css);
 
-/* import for opt block */
-
-@import url(../blocks/about/_opt/about_opt.css);
-@import url(../blocks/about/section__text/_opt/section__text_opt.css);
-
-/* import for stock block */
-
-@import url(../blocks/stock/stock.css);
-@import url(../blocks/stock/__props/stock__props.css);
-@import url(../blocks/stock/__props-text/stock__props-text.css);
-@import url(../blocks/stock/__props-text/_bold/stock__props-text_bold.css);
-@import url(../blocks/stock/__props-item/stock__props-item.css);
-@import url(../blocks/stock/__name/stock__name.css);
-@import url(../blocks/stock/__name-model/stock__name-model.css);
-@import url(../blocks/stock/__image/stock__image.css);
-@import url(../blocks/stock/__cards/stock__cards.css);
-@import url(../blocks/stock/__card/stock__card.css);
-@import url(../blocks/stock/__button/stock__button.css);
-
 /* import for popup block */
 
 @import url(../blocks/popup/popup.css);
