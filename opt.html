@@ -36,7 +36,7 @@
       <div class="menu__icon">
          <span></span>
       </div>
-      <button class="header__contact" id="contact">СВЯЗАТЬСЯ С НАМИ</button>
+      <button class="header__contact contact">СВЯЗАТЬСЯ С НАМИ</button>
    </header>
    <main class="content">
       <section class="intro">
@@ -47,7 +47,7 @@
             <h2 class="intro__subtitle _anim-items _anim-no-hide">
                Условия и предложения для оптовых поставок оборудования
             </h2>
-            <button class="intro__contact _anim-items _anim-no-hide" id="contact">
+            <button class="intro__contact _anim-items _anim-no-hide contact">
                СВЯЗАТЬСЯ С НАМИ
             </button>
          </div>
@@ -141,14 +141,14 @@
 
                <li class="contacts__list-item">
                   <img src="images/phone.svg" alt="icon" class="contacts__icon">
-                  <a href="tel:+7 (931) 103 50 54" class="contacts__contact">
+                  <a href="tel:+7(931)1035054" class="contacts__contact">
                      8(931)103-50-54
                   </a>
                </li>
 
                <li class="contacts__list-item">
                   <img src="images/wtsp.svg" alt="icon" class="contacts__icon">
-                  <a href="tel:+7 (931) 103 50 54" class="contacts__contact">
+                  <a href="tel:+7(931)1035054" class="contacts__contact">
                      8(931)103-50-54
                   </a>
                </li>
@@ -166,7 +166,7 @@
                <img src="images/form1.svg" alt="icon" class="contacts__icon-1">
                <img src="images/form2.svg" alt="icon" class="contacts__icon-2">
                <img src="images/form3.svg" alt="icon" class="contacts__icon-3">
-               <form action="send.php" method="POST" class="contacts__form" name="sendinfo" validate>
+               <form action="send.php" method="POST" class="contacts__form" name="sendinfo">
                   <fieldset class="contacts__form-set">
                      <input type="text" class="contacts__text-area" id="name-input" name="inputName" placeholder="Имя" minlength="2" maxlength="30" required>
                      <input type="email" class="contacts__text-area" id="email-input" name="inputEmail" placeholder="Почта" required>
@@ -191,7 +191,7 @@
             <ul class="footer__list">
                <li class="footer__list-item">
                   <img src="images/footer__mail.svg" alt="" class="footer__icon">
-                  <a type="mail" class="footer__text">monterey@internet.ru</a>
+                  <p class="footer__text">monterey@internet.ru</p>
                </li>
 
                <li class="footer__list-item">
@@ -202,7 +202,7 @@
 
                <li class="footer__list-item">
                   <img src="images/footer__phone.svg" alt="" class="footer__icon">
-                  <a href="tel:+7 (931) 103 50 54" class="footer__text">8(931)103-50-54</a>
+                  <a href="tel:+7(931)1035054" class="footer__text">8(931)103-50-54</a>
                </li>
             </ul>
          </div>
@@ -233,11 +233,11 @@
          <div class="popup__outer">
             <div class="popup__inner">
                <button type="button" class="popup__close"></button>
-               <form action="send.php" method="POST" class="contacts__form" name="sendinfo" validate>
+               <form action="send.php" method="POST" class="contacts__form" name="sendinfo">
                   <fieldset class="contacts__form-set">
-                     <input type="text" class="contacts__text-area" id="name-input" name="inputName" placeholder="Имя" minlength="2" maxlength="30" required>
-                     <input type="email" class="contacts__text-area" id="email-input" name="inputEmail" placeholder="Почта" required>
-                     <input type="text" class="contacts__text-area contacts__text-area_message" id="message-input" name="inputMessage" placeholder="Сообщение">
+                     <input type="text" class="contacts__text-area" name="inputName" placeholder="Имя" minlength="2" maxlength="30" required>
+                     <input type="email" class="contacts__text-area" name="inputEmail" placeholder="Почта" required>
+                     <input type="text" class="contacts__text-area contacts__text-area_message" name="inputMessage" placeholder="Сообщение">
                      <button type="submit" class="contacts__submit">ОТПРАВИТЬ ЗАПРОС</button>
                   </fieldset>
                </form>

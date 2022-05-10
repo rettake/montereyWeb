@@ -1,4 +1,4 @@
-const contactButton = document.querySelectorAll("#contact");
+const contactButton = document.querySelectorAll(".contact");
 const popup = document.querySelector('.popup');
 const closeButton = popup.querySelector('.popup__close');
 // ПОЛУЧЕНИЕ БУРГЕРА
